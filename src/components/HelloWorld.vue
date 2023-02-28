@@ -1,16 +1,24 @@
 <template>
-  <v-container>
-    <v-row class="text-center">
-      <v-col cols="12">
-        <v-img
-          :src="require('../assets/eqipamento.jpeg')"
-          class="my-3"
-          contain
-          height="200"
-        />
-      </v-col>     
+  <div class="principal">
+    <h2 class="text-center">Nossos parceiros:</h2>
+    <v-row class="marcas">
+      <img
+          v-for="(logo, index) in paths" :key="index"
+          :src="require('../assets/logos/' + logo)"
+          width="50%"
+          alt="logos"
+      />
     </v-row>
-  </v-container>
+    <h2 class="text-center">Alguns de Nossos Clientes:</h2>
+    <v-row class="marcas">
+      <img
+          v-for="(logo, index) in clients" :key="index"
+          :src="require('../assets/logos/' + logo)"
+          width="50%"
+          alt="logos"
+      />
+    </v-row>
+  </div>
 </template>
 
 <script>
@@ -18,56 +26,63 @@
     name: 'HelloWorld',
 
     data: () => ({
-      ecosystem: [
-        {
-          text: 'vuetify-loader',
-          href: 'https://github.com/vuetifyjs/vuetify-loader',
-        },
-        {
-          text: 'github',
-          href: 'https://github.com/vuetifyjs/vuetify',
-        },
-        {
-          text: 'awesome-vuetify',
-          href: 'https://github.com/vuetifyjs/awesome-vuetify',
-        },
+      paths: [
+        "3m.jpeg",
+        "airSafety.jpeg", //
+        "carbografit.jpeg", //
+        "danny.jpeg", //
+        "debstoko.jpg",
+        "ecosorb.jpg",
+        "honeywell.jpeg", //
+        "ledan.jpg",
+        "marluvas.jpeg", //
+        "mgcinto.jpeg", //
+        "msa.jpeg",  //
+        "nutriex.jpeg", //
+        "sayro.jpeg", //
+        "streammylight.jpeg", //
+        "ultrasafe.jpeg", //
+        "vicsa.jpeg", //
+        "wwuniformes.jpeg", //
       ],
-      importantLinks: [
-        {
-          text: 'Documentation',
-          href: 'https://vuetifyjs.com',
-        },
-        {
-          text: 'Chat',
-          href: 'https://community.vuetifyjs.com',
-        },
-        {
-          text: 'Made with Vuetify',
-          href: 'https://madewithvuejs.com/vuetify',
-        },
-        {
-          text: 'Twitter',
-          href: 'https://twitter.com/vuetifyjs',
-        },
-        {
-          text: 'Articles',
-          href: 'https://medium.com/vuetify',
-        },
+      clients: [
+        "alcoa.jpeg",
+        "angloAmerican.jpeg",
+        "carbografit.jpeg",
+        "coopama.jpeg",
+        "danny.jpeg",
+        "epirock.jpeg",
+        "Gkv.jpeg",
+        "guaxupe.jpeg",
+        "honeywell.jpeg",
+        "oxiteno.jpeg", //
+        "paramotos.jpeg", //
+        "raízen.jpeg", //
+        "saomarco.jpeg", //
+        "tupi.jpeg", //
+        "unif.jpeg", //
+         "ipe.jpg",
+         "irizar.jpg"
+
       ],
-      whatsNext: [
-        {
-          text: 'Explore components',
-          href: 'https://vuetifyjs.com/components/api-explorer',
-        },
-        {
-          text: 'Select a layout',
-          href: 'https://vuetifyjs.com/getting-started/pre-made-layouts',
-        },
-        {
-          text: 'Frequently Asked Questions',
-          href: 'https://vuetifyjs.com/getting-started/frequently-asked-questions',
-        },
-      ],
+
+
     }),
   }
 </script>
+<style lang="scss" scoped>
+.principal{
+  h2{
+    color: crimson;
+  }
+  .marcas {
+    margin-top: -2.1%;
+    padding: 4%;
+    width: 100%;
+    display: grid;
+    gap:2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 3.5%;
+  }
+}
+</style>
