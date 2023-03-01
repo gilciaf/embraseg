@@ -34,7 +34,7 @@ export default {};
   grid-template-columns: 15% 70% 15%;
   h2 {
     font-family: "PT Sans", sans-serif;
-    color: #cf0000;
+    color: #930101;
   }
   .text {
     margin-top: 4.2%;
@@ -46,7 +46,7 @@ export default {};
     }
     h3 {
       font-family: "PT Sans", sans-serif;
-      color: #cf0000;
+      color: #850101;
     }
     p {
       font-size: 1rem;
@@ -54,11 +54,11 @@ export default {};
   }
   .side {
     height: 100%;
-    border-left: solid 14px #cf0000;
+    border-left: solid 14px #9F0404;
   }
   .side2 {
     height: 100%;
-    border-right: solid 14px #cf0000;
+    border-right: solid 14px #9F0404;
   }
 }
 //@media screen and (max-width: 412px) {

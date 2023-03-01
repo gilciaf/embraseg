@@ -73,7 +73,7 @@
 <style lang="scss" scoped>
 .principal{
   h2{
-    color: crimson;
+    color: #9b0927;
   }
   .marcas {
     margin-top: -2.1%;

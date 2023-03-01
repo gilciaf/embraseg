@@ -24,7 +24,6 @@
 
   export default {
     name: 'HomeView',
-
     components: {
       HelloWorld,
       SobreNos,
