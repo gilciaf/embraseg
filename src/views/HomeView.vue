@@ -3,7 +3,7 @@
     <v-row class="text-center mt-n12 mb-n4">
       <v-col cols="12" md="12">
         <v-img
-            :src="require('../assets/eqipamento.jpeg')"
+            :src="require('../assets/banner2.jpg')"
             class="my-3"
             contain
             width="100%"

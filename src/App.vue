@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar
         app
-        color="#9f0404"
+        color="white"
         class="menu"
     >
       <div class="d-flex align-center">
@@ -33,7 +33,7 @@
           text
           class="link"
       >
-        <span class="mr-2" style="color: white">Home</span>
+        <span class="mr-2" style="color: #9F0404">Home</span>
         <!-- <v-icon>mdi-open-in-new</v-icon> -->
       </v-btn>
       <v-btn
@@ -41,7 +41,7 @@
           text
           class="link"
       >
-        <span class="mr-2" style="color: white">Produtos</span>
+        <span class="mr-2" style="color: #9F0404">Produtos</span>
         <!-- <v-icon>mdi-open-in-new</v-icon> -->
       </v-btn>
       <v-btn
@@ -49,7 +49,7 @@
           text
           class="link"
       >
-        <span class="mr-2" style="color: white">Contato</span>
+        <span class="mr-2" style="color: #9F0404">Contato</span>
         <!-- <v-icon>mdi-open-in-new</v-icon> -->
       </v-btn>
     </v-app-bar>
