@@ -9,7 +9,6 @@
             name="nome"
             placeholder="Seu nome"
         />
-
         <v-text-field
             label="Email:"
             type="text"
@@ -24,7 +23,7 @@
         />
 
         <v-textarea label="Sua Mensagem:" row="6" class="message"></v-textarea>
-        <v-btn class="primary" type="submit">Enviar</v-btn>
+        <v-btn  color="#9F0404" type="submit"><h3 style="color: white">Enviar</h3></v-btn>
       </form>
     </div>
   </div>

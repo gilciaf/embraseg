@@ -92,7 +92,7 @@ export default {};
     margin-top: 2%;
   }
 }
-@media screen and (max-width:412px) {
+@media screen and (max-width:450px) {
   .main {
     .extrutura {
       flex-direction: column;
@@ -106,15 +106,18 @@ export default {};
         }
       }
       .social-medias {
-        width: 100%;
+        width: 95%;
         background-color: #9f0404;
-        padding: 1.4% 1.4% 1% 1.4%;
+        padding: 2.1% 2.8% 0 2.1%;
         display: flex;
-        justify-content: center;
-        gap: 1rem;
-        margin-left: 7%;
+        justify-content: space-around;
+        margin-left: 4%;
+        h3{
+          font-size: 1rem;
+        }
         img{
-          width: 80%;
+          width: 90%;
+          margin-right: 2.1%;
         }
       }
     }

@@ -13,7 +13,7 @@
     <sobre-nos class="mt-n4" />
     <hr>
     <hello-world />
-    <footer-wj />
+    <footer-wj class="mt-2" />
   </div>
 </template>
 

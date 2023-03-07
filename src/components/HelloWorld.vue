@@ -48,21 +48,21 @@
       clients: [
         "alcoa.jpeg",
         "angloAmerican.jpeg",
-        "carbografit.jpeg",
         "coopama.jpeg",
-        "danny.jpeg",
         "epirock.jpeg",
         "Gkv.jpeg",
         "guaxupe.jpeg",
-        "honeywell.jpeg",
         "oxiteno.jpeg", //
         "paramotos.jpeg", //
         "raízen.jpeg", //
         "saomarco.jpeg", //
         "tupi.jpeg", //
         "unif.jpeg", //
-         "ipe.jpg",
-         "irizar.jpg"
+        "ipe.jpg",
+        "irizar.jpg",
+        "destak.jpeg",
+        "frivasa.jpeg",
+        "unifenas.jpeg"
 
       ],
 
@@ -83,6 +83,25 @@
     gap:2rem;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin-left: 3.5%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .principal{
+    h2{
+      color: #9b0927;
+    }
+    .marcas {
+      margin-top: -2.1%;
+      padding: 4%;
+      width: 100%;
+      display: grid;
+      gap:2rem;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      margin-left: 3.5%;
+      img{
+        width: 90%;
+      }
+    }
   }
 }
 </style>

@@ -105,7 +105,7 @@ export default {
   .menu {
     .icon-menu {
       display: block;
-      color:white;
+      color:#9F0404;
     }
     .link-logo {
       display: none;
