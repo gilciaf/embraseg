@@ -4,6 +4,10 @@
       <v-card elevation="7" class="card-contato">
         <h3 class="text-md-center">Fale Direto:</h3>
         <div class="contato mt-4">
+          <v-icon large color="blue">mdi-phone</v-icon>
+          <h4 class="mt-2">(35) 3414-7705</h4>
+        </div>
+        <div class="contato mt-4">
           <img src="../assets/socialmedia/whatsapp-3.svg" width="20px" alt="whatsapp" />
           <h4 class="mt-2">(35) 99135-0066</h4>
         </div>

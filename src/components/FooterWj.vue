@@ -5,7 +5,7 @@ vue
     <div class="extrutura">
       <div class="address">
         <div class="logo">
-          <img src="../assets/embraseg2.png" width="100%" alt="Logo WS" />
+          <img src="../assets/logo-cinza.png" width="100%" alt="Logo WS" />
         </div>
         <h4>Avenida Juscelino Kubitschek, 220</h4>
         <h4>Bairro Parque Vivaldi Leite Ribeiro</h4>

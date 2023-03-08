@@ -22,53 +22,53 @@
 </template>
 
 <script>
-  export default {
-    name: 'HelloWorld',
+export default {
+  name: 'HelloWorld',
 
-    data: () => ({
-      paths: [
-        "3m.jpeg",
-        "airSafety.jpeg", //
-        "carbografit.jpeg", //
-        "danny.jpeg", //
-        "debstoko.jpg",
-        "ecosorb.jpg",
-        "honeywell.jpeg", //
-        "ledan.jpg",
-        "marluvas.jpeg", //
-        "mgcinto.jpeg", //
-        "msa.jpeg",  //
-        "nutriex.jpeg", //
-        "sayro.jpeg", //
-        "streammylight.jpeg", //
-        "ultrasafe.jpeg", //
-        "vicsa.jpeg", //
-        "wwuniformes.jpeg", //
-      ],
-      clients: [
-        "alcoa.jpeg",
-        "angloAmerican.jpeg",
-        "coopama.jpeg",
-        "epirock.jpeg",
-        "Gkv.jpeg",
-        "guaxupe.jpeg",
-        "oxiteno.jpeg", //
-        "paramotos.jpeg", //
-        "raízen.jpeg", //
-        "saomarco.jpeg", //
-        "tupi.jpeg", //
-        "unif.jpeg", //
-        "ipe.jpg",
-        "irizar.jpg",
-        "destak.jpeg",
-        "frivasa.jpeg",
-        "unifenas.jpeg"
+  data: () => ({
+    paths: [
+      "danny.jpeg", //
+      "msa.jpeg",  //
+      "3m.jpeg",
+      "airSafety.jpeg", //
+      "carbografit.jpeg", //
+      "debstoko.jpg",
+      "ecosorb.jpg",
+      "honeywell.jpeg", //
+      "ledan.jpg",
+      "marluvas.jpeg", //
+      "mgcinto.jpeg", //
+      "nutriex.jpeg", //
+      "sayro.jpeg", //
+      "streammylight.jpeg", //
+      "ultrasafe.jpeg", //
+      "vicsa.jpeg", //
+      "wwuniformes.jpeg", //
+    ],
+    clients: [
+      "alcoa.jpeg",
+      "angloAmerican.jpeg",
+      "coopama.jpeg",
+      "epirock.jpeg",
+      "Gkv.jpeg",
+      "guaxupe.jpeg",
+      "oxiteno.jpeg", //
+      "paramotos.jpeg", //
+      "raízen.jpeg", //
+      "saomarco.jpeg", //
+      "tupi.jpeg", //
+      "unif.jpeg", //
+      "ipe.jpg",
+      "irizar.jpg",
+      "destak.jpeg",
+      "frivasa.jpeg",
+      "unifenas.jpeg"
 
-      ],
+    ],
 
 
-    }),
-  }
+  }),
+}
 </script>
 <style lang="scss" scoped>
 .principal{

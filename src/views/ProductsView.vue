@@ -3,7 +3,7 @@
     <v-row class="text-center mt-n16 mb-n4">
       <v-col cols="12" md="12">
         <v-img
-            :src="require('../assets/banner.jpg')"
+            :src="require('../assets/banner3.jpg')"
             class="my-3"
             contain
             width="100%"
@@ -28,12 +28,13 @@
         <img
             v-for="(produto, index) in impermeaveis" :key="index"
             :src="require('../assets/produtos/impermeaveis/' + produto)"
-            width="50%"
+            height="70%"
+            width="70%"
             alt="logos"
         />
       </v-row>
     </v-row>
-    <v-row justify="center">
+    <v-row justify="center" class="mt-n7">
       <h3 class="mt-1">Proteção de Cabeça:</h3>
       <v-row class="impermeaveis">
         <img
@@ -61,13 +62,13 @@
         <img
             v-for="(produto, index) in face" :key="index"
             :src="require('../assets/produtos/face/' + produto)"
-            width="50%"
             alt="logos"
+            width="50%"
         />
       </v-row>
     </v-row>
     <v-row justify="center">
-      <h3 class="mt-1">Calçados Segurança:</h3>
+      <h3 class="mt-n1">Calçados Segurança:</h3>
       <v-row class="botas">
         <img
             v-for="(produto, index) in botas" :key="index"
@@ -89,20 +90,21 @@
       </v-row>
     </v-row>
     <v-row justify="center">
-      <h3 class="mt-1">Lanternas Área Controlada:</h3>
-      <h5>(INTRINSECAMENTE SEGURA)</h5>
+      <h3 class="lant-pc mt-1">Lanternas Área Controlada(Intrissicamente Segura):</h3>
+      <h3 class="lant-mobile mt-1">Lanternas Área Controlada:</h3>
       <v-row class="lanternas">
         <img
             v-for="(produto, index) in lanternas" :key="index"
             :src="require('../assets/produtos/lanternas/' + produto)"
-            width="50%"
+            width="70%"
+            height="70%"
             alt="logos"
         />
       </v-row>
     </v-row>
-    <v-row justify="center">
-      <h3 class="mt-1">Proteção a Quedas:</h3>
-      <v-row class="botas">
+    <v-row justify="center" class="mt-n7">
+      <h3 class="mt-n1">Proteção a Quedas:</h3>
+      <v-row class="quedas">
         <img
             v-for="(produto, index) in contraQuedas" :key="index"
             :src="require('../assets/produtos/contra-quedas/' + produto)"
@@ -146,8 +148,8 @@ export default {
 
   data: () => ({
     impermeaveis: [
-      "avental.jpeg",
       "capa.jpeg",
+      "avental.jpeg",
       "motoqueiro.jpeg",
     ],
     bloqueios: [
@@ -189,7 +191,7 @@ export default {
       "conjunto2.jpeg",
     ],
     lanternas: [
-      "lanterna1.jpeg",
+      "lanterna4.jpeg",
       "lanterna2.jpeg",
       "lanterna3.jpeg",
     ],
@@ -242,7 +244,8 @@ export default {
   .impermeaveis {
     margin-top: -2.6%;
     padding: 4%;
-    width: 100%;
+    width: 120%;
+    height: 120%;
     display: flex;
     justify-content: center;
     gap: 14rem;
@@ -269,12 +272,13 @@ export default {
     margin-top: -2.6%;
     padding: 4%;
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
-    gap: 4rem;
-
+    gap: 2.1rem;
     img {
-      max-width: 10%;
+      max-width: 14%;
+      height: 50%;
     }
   }
 
@@ -289,6 +293,21 @@ export default {
     img {
       max-width: 10%;
     }
+  }
+  .quedas {
+    margin-top: -2.6%;
+    padding: 4%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+
+    img {
+      max-width: 10%;
+    }
+  }
+  .lant-mobile{
+    display: none;
   }
   .lanternas {
     margin-top: -2.6%;
@@ -309,9 +328,8 @@ export default {
     display: flex;
     justify-content: center;
     gap: 4rem;
-
     img {
-      max-width: 12%;
+      max-width: 18%;
     }
   }
 
@@ -384,7 +402,7 @@ export default {
     }
 
     .botas {
-      margin-top: -2.6%;
+      margin-top: -1.2%;
       padding: 4%;
       width: 100%;
       display: flex;
@@ -395,7 +413,25 @@ export default {
         max-width: 18%;
       }
     }
-.lanternas {
+    .quedas {
+      margin-top: -1.2%;
+      padding: 4%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 4rem;
+
+      img {
+        max-width: 18%;
+      }
+    }
+    .lant-mobile{
+      display: block;
+    }
+    .lant-pc{
+      display: none;
+    }
+    .lanternas {
       margin-top: -2.6%;
       padding: 4%;
       width: 100%;
@@ -405,6 +441,7 @@ export default {
 
       img {
         max-width: 14%;
+        height: 35%;
       }
     }
 

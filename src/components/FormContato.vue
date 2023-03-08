@@ -19,7 +19,7 @@
             label="Fone:"
             type="text"
             name="fone"
-            placeholder="Seu e-mail"
+            placeholder="Seu número"
         />
 
         <v-textarea label="Sua Mensagem:" row="6" class="message"></v-textarea>
