@@ -34,9 +34,9 @@
         />
       </v-row>
     </v-row>
-    <v-row justify="center">
-      <h3 class="mt-1">Proteção de Cabeça:</h3>
-      <v-row class="impermeaveis">
+    <v-row justify="center" class="mt-n8">
+      <h3>Proteção de Cabeça:</h3>
+      <v-row class="capacetes">
         <img
             v-for="(produto, index) in capacetes" :key="index"
             :src="require('../assets/produtos/capacetes/' + produto)"
@@ -149,8 +149,8 @@ export default {
   data: () => ({
     impermeaveis: [
       "capa.jpeg",
-      "avental3.jpeg",
       "motoqueiro.jpeg",
+      "avental3.jpeg",
     ],
     bloqueios: [
       "bloqueio-ajustavel.png",
@@ -242,6 +242,20 @@ export default {
   }
 
   .impermeaveis {
+    margin-top: -2.6%;
+    padding: 4%;
+    width: 100%;
+    max-height: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 14rem;
+
+    img {
+      max-width: 12%;
+      height: 80%;
+    }
+  }
+  .capacetes {
     margin-top: -2.6%;
     padding: 4%;
     width: 120%;
@@ -364,6 +378,18 @@ export default {
     }
 
     .impermeaveis {
+      margin-top: 1%;
+      padding: 4%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+
+      img {
+        max-width: 21%;
+      }
+    }
+    .capacetes {
       margin-top: 1%;
       padding: 4%;
       width: 100%;

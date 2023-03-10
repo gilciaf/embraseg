@@ -2,7 +2,7 @@
   <div class="main">
     <div class="form">
       <h4>Mande-nos sua mensagem pelo nosso formulário:</h4>
-      <form method="POST" action="https://ciaf.com.br/gilvan@ciaf.com.br">
+      <form method="POST" action="https://embraseg.com/enviaemail.php">
         <v-text-field
             label="Nome:"
             type="text"
