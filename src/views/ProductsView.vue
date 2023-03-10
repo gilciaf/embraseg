@@ -28,13 +28,13 @@
         <img
             v-for="(produto, index) in impermeaveis" :key="index"
             :src="require('../assets/produtos/impermeaveis/' + produto)"
-            height="70%"
-            width="70%"
+            width="77%"
+            height="auto"
             alt="logos"
         />
       </v-row>
     </v-row>
-    <v-row justify="center" class="mt-n7">
+    <v-row justify="center">
       <h3 class="mt-1">Proteção de Cabeça:</h3>
       <v-row class="impermeaveis">
         <img
@@ -149,7 +149,7 @@ export default {
   data: () => ({
     impermeaveis: [
       "capa.jpeg",
-      "avental.jpeg",
+      "avental3.jpeg",
       "motoqueiro.jpeg",
     ],
     bloqueios: [
@@ -251,7 +251,8 @@ export default {
     gap: 14rem;
 
     img {
-      max-width: 10%;
+      max-width: 12%;
+      max-height: 80%;
     }
   }
 
